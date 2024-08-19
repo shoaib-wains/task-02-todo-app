@@ -1,3 +1,9 @@
+import '@/app/ui/global.css';
+import {inter} from '@/app/ui/fonts'
+import AuthProvider from '@/app/Provider'
+import Signup from './signup/page';
+import { SessionProvider } from "next-auth/react";
+ 
 export default function RootLayout({
   children,
 }: {
@@ -5,7 +11,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className={`${inter.className} antialiased`}>
+        <SessionProvider>
+        {children}
+        </SessionProvider>
+      {/* <h1>Hello</h1> */}
+      </body>
     </html>
   );
 }
+

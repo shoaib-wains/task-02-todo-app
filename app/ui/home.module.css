@@ -1,0 +1,262 @@
+.shape {
+    height: 0;
+    width: 0;
+    border-bottom: 30px solid black;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+  }
+.list{
+  background-color: rgba(35, 32, 32, 1);
+  /* background-image: url(/nextjs-dashboard/public/backgroundimg.png); */
+  color: aliceblue;
+}
+.todos{
+  font-weight: 400;
+}
+.topdiv{
+  background-color:black;
+}
+.input{
+  background-color:rgba(35, 32, 32, 1) ;
+  border-color: rgba(255, 115, 21, 1);
+  border-radius: 30px;
+  border-width: 5px;
+
+}
+
+/* Theme Colors */
+/* First Line of themes */
+.vintagegarden{
+  background-color: rgba(253, 251, 218, 1);
+  border-color: rgba(129, 159, 127, 1);
+  color: rgba(45, 70, 89, 1);
+}
+.cosmicsymphony{
+  background-color: rgba(65, 53, 67, 1);
+  border-bottom: rgba(143, 67, 238, 1);
+  color: rgba(240, 235, 141, 1);
+}
+.rusticcharm{
+  background-color: rgba(249, 245, 235, 1);
+  border-color: rgba(0, 43, 91, 1);
+  color:   rgba(234, 84, 85, 1);
+}
+
+/* Second Line of themes */
+.sunsetserenade{
+  background-color: rgba(0, 159, 189, 1);
+  border-color: rgba(119, 3, 123, 1);
+  color: rgba(33, 0, 98, 1);
+}
+.industrialchic{
+  background-color:rgba(244, 80, 80, 1);
+  border-color: rgba(249, 217, 73, 1);
+  color: rgba(240, 240, 240, 1);
+}
+.blackoutneutrals{
+  background-color:rgba(243, 239, 224, 1);
+  border-color: rgba(34, 163, 159, 1);
+  color:   rgba(34, 34, 34, 1);
+}
+/* Third line of themes */
+.vibrantspectrum{
+  background-color: rgba(204, 240, 195, 1);
+  border-color: rgba(188, 163, 202, 1);
+  color: rgba(74, 14, 92, 1);
+}
+.coastalsunrise{
+  background-color: rgba(230, 230, 212, 1);
+  border-color: rgba(0, 88, 116, 1);
+  color:  rgba(255, 190, 0, 1);
+}
+.oceanicserenity{
+  background-color:rgba(46, 79, 79, 1);
+  border-color: rgba(44, 51, 51, 1);
+  color: rgba(203, 228, 222, 1);
+}
+
+
+/* Theme Changing */
+.t1{
+  border-color: rgba(129, 159, 127, 1);
+  border-width: 5px;
+  border-radius: 30px;
+}
+.t2{
+  border-color: rgba(143, 67, 238, 1);
+  border-radius: 30px;
+  border-width: 5px;
+}
+.t3{
+  border-color: rgba(0, 43, 91, 1);
+  border-width: 5px;
+  border-radius: 30px;
+}
+.t4{
+  border-color: rgba(119, 3, 123, 1);
+  border-width: 5px;
+  border-radius: 30px;
+}
+.t5{
+  border-color: rgba(249, 217, 73, 1);
+  border-width: 5px;
+  border-radius: 30px;
+}
+.t6{
+  border-color: rgba(34, 163, 159, 1);
+  border-width: 5px;
+  border-radius: 30px;
+}
+.t7{
+  border-color: rgba(188, 163, 202, 1);
+  border-width: 5px;
+  border-radius: 30px;
+}
+.t8{
+  border-color: rgba(0, 88, 116, 1);
+  border-width: 5px;
+  border-radius: 30px;
+}
+.t9{
+  border-color: rgba(44, 51, 51, 1);
+  border-width: 5px;
+  border-radius: 30px;
+}
+
+/* Theme Button Styling */
+.tbtn0{
+  background-color:  rgba(255, 115, 21, 1);;
+  border-color:  rgba(255, 115, 21, 1);;
+  border-width: 5px;
+  border-radius: 30px;
+  padding-top: 12px;
+  padding-bottom:12px;
+  padding-left:16px;
+  padding-right:16px;
+}
+.tbtn1{
+  background-color: rgba(129, 159, 127, 1);
+  border-color: rgba(129, 159, 127, 1);
+  border-width: 5px;
+  border-radius: 30px;
+  padding-top: 12px;
+  padding-bottom:12px;
+  padding-left:16px;
+  padding-right:16px;
+}
+.tbtn2{
+  background-color: rgba(143, 67, 238, 1);
+  border-color: rgba(143, 67, 238, 1);
+  border-radius: 30px;
+  border-width: 5px;
+  padding-top: 12px;
+  padding-bottom:12px;
+  padding-left:16px;
+  padding-right:16px;
+}
+.tbtn3{
+  background-color: rgba(0, 43, 91, 1);
+  border-color: rgba(0, 43, 91, 1);
+  border-width: 5px;
+  border-radius: 30px;
+  padding-top: 12px;
+  padding-bottom:12px;
+  padding-left:16px;
+  padding-right:16px;
+}
+.tbtn4{
+  background-color: rgba(119, 3, 123, 1);
+  border-color: rgba(119, 3, 123, 1);
+  border-width: 5px;
+  border-radius: 30px;
+  padding-top: 12px;
+  padding-bottom:12px;
+  padding-left:16px;
+  padding-right:16px;
+}
+.tbtn5{
+  background-color: rgba(249, 217, 73, 1);
+  border-color: rgba(249, 217, 73, 1);
+  border-width: 5px;
+  border-radius: 30px;
+  padding-top: 12px;
+  padding-bottom:12px;
+  padding-left:16px;
+  padding-right:16px;
+}
+.tbtn6{
+  background-color: rgba(34, 163, 159, 1);
+  border-color: rgba(34, 163, 159, 1);
+  border-width: 5px;
+  border-radius: 30px;
+  padding-top: 12px;
+  padding-bottom:12px;
+  padding-left:16px;
+  padding-right:16px;
+}
+.tbtn7{
+  background-color: rgba(188, 163, 202, 1);
+  border-color: rgba(188, 163, 202, 1);
+  border-width: 5px;
+  border-radius: 30px;
+  padding-top: 12px;
+  padding-bottom:12px;
+  padding-left:16px;
+  padding-right:16px;
+}
+.tbtn8{
+  background-color: rgba(0, 88, 116, 1);
+  border-color: rgba(0, 88, 116, 1);
+  border-width: 5px;
+  border-radius: 30px;
+  padding-top: 12px;
+  padding-bottom:12px;
+  padding-left:16px;
+  padding-right:16px;
+}
+.tbtn9{
+  background-color: rgba(44, 51, 51, 1);
+  border-color: rgba(44, 51, 51, 1);
+  border-width: 5px;
+  border-radius: 30px;
+  padding-top: 12px;
+  padding-bottom:12px;
+  padding-left:16px;
+  padding-right:16px;
+}
+
+
+/* Add list button */
+.addbtn{
+  background-color: #FF7315;
+  border-color:  #FF7315;
+}
+
+
+
+
+
+
+
+/* styling of Setting Component */
+.profilediv{
+  background-color: rgba(217, 217, 217, 1);
+}
+.cp{
+  background-color: rgba(35, 32, 32, 1);
+  border-color: rgba(255, 115, 21, 1);
+  color: rgba(255, 115, 21, 1);
+}
+.sp{
+  background-color: rgba(255, 115, 21, 1);
+  border-color: rgba(255, 115, 21, 1);
+  color: rgba(35, 32, 32, 1);;
+}
+.inputname{
+  background-color:rgba(35, 32, 32, 1) ;
+  border-color: rgba(255, 115, 21, 1);
+  width: 447px;
+}
+.lablediv{
+  width: 376px;
+}
